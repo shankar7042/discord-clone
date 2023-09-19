@@ -14,7 +14,7 @@ import { Label } from "@/components/ui/label";
 import { useModal } from "@/hooks/use-modal-store";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { useOrigin } from "@/hooks/use-hooks";
+import { useOrigin } from "@/hooks/use-origin";
 
 export const InviteModal = () => {
   const { onOpen, isOpen, type, onClose, data } = useModal();
